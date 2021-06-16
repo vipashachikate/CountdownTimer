@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(lightpink,lightyellow);
+}
+h1{
+  font-size: 42px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  color: black;
+}
+p{
+  height: 100px;
+  width: 600px;
+  background: rgba(238, 174, 217, 0.575);
+  box-shadow: 2px 2px 10px lightcoral;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: bold;
+  animation: effect 2s infinite ease-in-out;
+
+}
+@keyframes effect{
+  0%{
+    color:whitesmoke;
+  } 
+  100%{
+    color: black;
+  }
+
+}
